@@ -56,6 +56,18 @@ img {
 /* changes by pascal */
 p.discreet {
     font-size: 0.8em;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+p.discreet {
+    font-size: 0.8em;
+    margin-top: 20px;
+}
+
+p.justified {
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 button, .button, input[type=submit] {

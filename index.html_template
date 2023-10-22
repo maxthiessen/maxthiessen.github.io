@@ -17,7 +17,7 @@
   <img src="max.jpg" width="150" height="150" class="rounded">
 </div>
 
-<p>
+<p class="justified">
   Hey there, my name is Max. I am a PhD student supervised by <a href=https://thomasgaertner.org/ target=_blank>Thomas Gärtner</a> in the <a href=https://ml-tuw.github.io/ target=_blank>machine learning research unit</a> at TU Wien, Austria. Before that, I studied computer science at the <a href=https://mlai.cs.uni-bonn.de/ target=_blank>University of Bonn</a> under the supervision of <a href=https://mlai.cs.uni-bonn.de/people/tamas-horvath target=_blank>Tamás Horváth</a>. My main research areas are <em>learning with graphs</em>, <em>active learning</em>, and <em>learning theory</em>. I try to bridge <em>(graph) convexity theory</em> and learning theory. More recently I have started working on <em>graph representations learning</em> and <em>graph neural networks</em>.
 </p>
 
@@ -50,7 +50,6 @@
   <li>[Jul 2022] Together with a team lead by my colleague Tamara Drucks, we organised machine learning courses for children at the KinderUni Wien.</li>
   <li>[Jun 2022] Our paper “Online Learning of Convex Sets on Graphs” got accepted to ECMLPKDD 2022!</li>
   <li>[Jun 2022] I visited Marco Bressan and Nicolò Cesa-Bianchi at the University of Milan.</li>
-  <li>[Mai 2022] We are organising the Mining and Learning with Graphs workshop (MLG) at ECMLPKDD in Grenoble. Submit your work!</li>
 </ul>
 
 
@@ -94,17 +93,17 @@
     LOG'<a  href="http://log2022.logconference.org/">22</a>'<a  href="http://logconference.org/">23</a>, and
     LWDA'<a href="https://lwda2022.de/">22</a>.
   </li>
-  <li>Regular reviewer for <a href="https://www.springer.com/journal/10994">MLJ</a> and the ECMLPKDD journal track (2023)</li>
+  <li>Regular reviewer for <a href="https://www.springer.com/journal/10994">MLJ</a> and the ECMLPKDD journal track (2023).</li>
   <li>Organizer of <a  href="https://mlg-europe.github.io/2022/">MLG@ECMLPKDD 2022</a> and <a href="https://mlg-europe.github.io/">2023</a>, the 18th and 20th Workshop on Mining and Learning with Graphs.</li>
-  <li>Initiator and organizor of <a href="https://cestlawien.github.io/">C'Est La Wien 2023</a>, the <strong>C</strong>ommunity <strong>E</strong>vent for <strong>St</strong>udents of <strong>L</strong>earning <strong>A</strong>lgorithms in <strong>Wien</strong></em></li>
-  <li>Session chair at <a  href="https://2023.ecmlpkdd.org">ECMLPKDD 2023</a></li>
-  <li>Frequent reviewer for various workshops at NeurIPS, ICML, and ICLR</li>
+  <li>Initiator and organizor of <a href="https://cestlawien.github.io/">C'Est La Wien 2023</a>, the <strong>C</strong>ommunity <strong>E</strong>vent for <strong>St</strong>udents of <strong>L</strong>earning <strong>A</strong>lgorithms in <strong>Wien</strong>.</li>
+  <li>Session chair at <a  href="https://2023.ecmlpkdd.org">ECMLPKDD'23.</a></li>
+  <li>Frequent reviewer for various workshops at NeurIPS, ICML, and ICLR.</li>
   <li>Co-organizer of a machine learning course for children at the KinderUni Wien (2022).</li></li>
   </li>
 </ol>
 
 <h2 id="people">People</h2>
-Frequent collaborators and close colleagues
+Frequent collaborators and colleagues
 <ul class="twocol">
   <li><a href="https://thomasgaertner.org/" target=_blank>Thomas Gärtner</a> (TU Wien)</li></li>
   <li><a href="https://sites.google.com/view/marco-bressan/home/" target=_blank>Marco Bressan</a> (Uni of Milan)</li>
@@ -119,7 +118,7 @@ Frequent collaborators and close colleagues
 
 <h2 id="contact">Contact</h2>
 <p>
-I am on <a href="https://twitter.com/maxthiessen_ml" target=_blank>Twitter</a>, <a href="https://github.com/maksim96">Github</a>, and <a href="https://www.linkedin.com/in/maximilian-thiessen/" target="_blank">LinkedIn</a>.
+You can find me on <a href="https://twitter.com/maxthiessen_ml" target=_blank>Twitter</a>, <a href="https://github.com/maksim96">Github</a>, and <a href="https://www.linkedin.com/in/maximilian-thiessen/" target="_blank">LinkedIn</a>.
 Most of my publications are indexed by <a href="https://scholar.google.com/citations?user=XO5rGcwAAAAJ">Google scholar</a>.<br />
 <!-- <a href="https://limesurvey.informatik.uni-bonn.de/index.php/212688?lang=en">You can give me anonymous feedback (for example on my teaching performance).</a> -->
 </p>
@@ -138,7 +137,7 @@ Most of my publications are indexed by <a href="https://scholar.google.com/citat
 </div>
 -->
 
-<p class="discreet">This page is blatantly copied from my lovely colleague <a href="https://pwelke.github.io" target=_blank>Pascal Welke</a>. It tries to be minimalistic in layout, bandwith, and used tools. It is hosted on <a href="https://github.com/maxthiessen/maxthiessen.github.io">github pages</a>, using <a href="https://neat.joeldare.com/">neat.css</a> stylesheets, and <a href="https://bibtexparser.readthedocs.org">bibtexparser</a> to generate the lists of references. Loosely inspired by <a href="https://hugo-theme-hermit.netlify.app/" target="_blank">Hugo's Hermit theme</a>.</p>
+<p class="footer">This page is blatantly copied from my lovely colleague <a href="https://pwelke.github.io" target=_blank>Pascal Welke</a>. It tries to be minimalistic in layout, bandwith, and used tools. It is hosted on <a href="https://github.com/maxthiessen/maxthiessen.github.io">Github pages</a>, using <a href="https://neat.joeldare.com/">neat.css</a> stylesheets, and <a href="https://bibtexparser.readthedocs.org">bibtexparser</a> to generate the lists of references. Loosely inspired by <a href="https://hugo-theme-hermit.netlify.app/" target="_blank">Hugo's Hermit theme</a>.</p>
     
 <script>
 var coll = document.getElementsByClassName("button");
