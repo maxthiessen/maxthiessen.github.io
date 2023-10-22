@@ -2,11 +2,11 @@
     color-scheme: light dark;
     --light: #fff;
     --lesslight: #efefef;
-    --dark: #404040;
-    --moredark: #000;
+    --dark:  	#A7E99C;
+    --moredark:  	#A7E99C;
     border-top: 5px solid var(--dark);
     line-height: 1.5em; /* This causes wrapping h1's to collapse too small */
-    font-family: sans-serif;
+    font-family: trebuchet ms,Verdana,verdana ref,segoe ui,Candara,lucida grande,lucida sans unicode,lucida sans,Tahoma, sans-serif;
     font-size: 16px;
 }
 
@@ -129,13 +129,69 @@ button + button, .button + .button, input[type=submit] + input[type=submit] {
     }
 }
 
+h1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+}
+
+h2 {
+ margin-top: 40px;
+}
+
+.twocol {
+  font-family: 'Fira Code', monospace;
+}
+
+.make-round {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.rounded {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+a {
+    color: #000;
+    -webkit-transition: color .5s;
+    -moz-transition: color .5s;
+    -o-transition: color .5s;
+    transition: color .5s;
+    text-decoration-thickness: 2.5px;
+    text-decoration-skip: ink;
+    text-decoration-skip-ink: none;
+    text-decoration-color: #d7a;
+    background-image: linear-gradient(to bottom, transparent 50%, #d7a 50%);
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    transition: .3s;
+}
+a:hover {
+    color: #fff;
+    background-position: 0% 100%;
+}
+
+
 /* Dark mode overrides (confusingly inverse) */
 @media (prefers-color-scheme: dark) {
     :root {
-        --light: #222;
-        --lesslight: #333;
-        --dark: #eee;
-        --moredark: #fefefe;
+        --light:  	#A7E99C;
+        --lesslight:  	#A7E99C;
+        --dark: #333;
+        --moredark: #333;
     }
     /* This fixes an odd blue then white shadow on FF in dark mode */
     *:focus {

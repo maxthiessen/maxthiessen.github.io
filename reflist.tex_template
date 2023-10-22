@@ -8,9 +8,9 @@
 
 \defaultfontfeatures{Ligatures=TeX}
 % Set sans serif font (for titles)
-\setsansfont{Aleo Light}
+%\setsansfont{Aleo Light}
 % Set serifed font (for body)
-\setmainfont[StylisticSet=11]{Vollkorn} % Use 'boring 1' stylistic set of Vollkorn to better distinguish between 1 and I
+%\setmainfont[StylisticSet=11]{Vollkorn} % Use 'boring 1' stylistic set of Vollkorn to better distinguish between 1 and I
 \setkomafont{disposition}{\sffamily}
 \setkomafont{paragraph}{\bfseries}
 \setkomafont{descriptionlabel}{\bfseries}

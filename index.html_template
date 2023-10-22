@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Pascal Welke</title>
+    <title>Maximilian Thiessen</title>
     <link rel="stylesheet" type="text/css" href="neat.css">
     <link rel="icon" type="image/x-icon" href="favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
 </head>
 
+
 <body>
 
-<h1 id="about">Pascal Welke</h1>
+<h1 id="about">Maximilian Thiessen</h1>
+<div class="make-round">
+  <img src="max.jpg" width="150" height="150" class="rounded">
+</div>
 
-<img src="circle.jpg" width="150" height="150">
-
-
-<p>I am interested in learning on and with graphs. In particular, expressive graph representations, as well as efficient similarity based learning on graphs and graph kernel design.
-I wrote my PhD thesis on 'Probabilistic Frequent Subtree Mining'.</p>
+<p>
+  Hey there, my name is Max. I am a PhD student supervised by <a href=https://thomasgaertner.org/ target=_blank>Prof. Thomas Gärtner</a> in the <a href=https://ml-tuw.github.io/ target=_blank>machine learning research unit</a> at TU Wien, Austria. Before that, I studied computer science at the <a href=https://mlai.cs.uni-bonn.de/ target=_blank>University of Bonn</a> under the supervision of <a href=https://mlai.cs.uni-bonn.de/people/tamas-horvath target=_blank>Dr. Tamás Horváth</a>. My main research interest is <em>active</em> and <em>semi-supervised learning</em>. The goal is to achieve novel <em>sample</em> and <em>query complexity bounds</em> for learning tasks on graphs using <em>convexity theory</em>. Additionally, I am working on <em>graph representations</em> that go beyond the <em>Weisfeiler-Leman</em> isomorphism test.
+</p>
 
 <!-- <p>I also teach several courses that are offered by our group in the Bachelors program and Masters program in Computer Science and I supervise BA and MA theses.</p> -->
 
@@ -33,18 +35,7 @@ I wrote my PhD thesis on 'Probabilistic Frequent Subtree Mining'.</p>
 
 <p>If you like pdfs, you can also download <a href="reflist.pdf">my publication list</a> in pdf format.</p>
 
-<h2 id="contact">Contact</h2>
-<p>
-I have accounts on <a href="https://www.researchgate.net/profile/Pascal_Welke">ResearchGate</a> and <a href="https://www.linkedin.com/in/pascal-welke-0163b91b6/">LinkedIn</a>.
-My publications are indexed by <a href="https://dblp.uni-trier.de/pid/174/0119.html">dblp</a> and <a href="https://scholar.google.de/citations?user=hgwvC6gAAAAJ&amp;hl=en">google scholar</a>. 
-Some of the code that I write is on <a href="https://github.com/pwelke">github</a>.<br />
-<!-- <a href="https://limesurvey.informatik.uni-bonn.de/index.php/212688?lang=en">You can give me anonymous feedback (for example on my teaching performance).</a> -->
-</p>
 
-<b>Office:</b> 
-2nd Floor, Erzherzog-Johann-Platz 1 (FB02), 1040 Vienna, Austria<br />
-
-<b>Email:</b> You can send mail to firstname.lastname@tuwien.ac.at<br />
 
 
 
@@ -111,6 +102,22 @@ Some of the code that I write is on <a href="https://github.com/pwelke">github</
   Reviews for several journals, conferences, and academic funding programs, e.g. <a  href="https://link.springer.com/journal/10994">Machine Learning</a>, <a  href="https://www.springer.com/journal/10618">Data Mining and Knowledge Discovery</a>, <a  href="https://link.springer.com/journal/10472">AMAI</a>, <a  href="https://www.kdd.org/kdd2016/">ACM SIGKDD 2016</a>,  <a  href="https://www.ptj.de/projektfoerderung/kuenstliche-intelligenz-starter">KI-Starter NRW</a>.<br>
   </li>
 </ol>
+
+
+<h2 id="contact">Contact</h2>
+<p>
+I have accounts on <a href="https://www.researchgate.net/profile/Pascal_Welke">ResearchGate</a> and <a href="https://www.linkedin.com/in/pascal-welke-0163b91b6/">LinkedIn</a>.
+My publications are indexed by <a href="https://dblp.uni-trier.de/pid/174/0119.html">dblp</a> and <a href="https://scholar.google.de/citations?user=hgwvC6gAAAAJ&amp;hl=en">google scholar</a>. 
+Some of the code that I write is on <a href="https://github.com/pwelke">github</a>.<br />
+<!-- <a href="https://limesurvey.informatik.uni-bonn.de/index.php/212688?lang=en">You can give me anonymous feedback (for example on my teaching performance).</a> -->
+</p>
+
+
+<b>Office:</b> 
+2nd Floor, Erzherzog-Johann-Platz 1 (FB02), 1040 Vienna, Austria<br />
+
+<b>Email:</b> You can send mail to <a href="mailto:maximilian.thiessen@tuwien.ac.at">maximilian.thiessen@tuwien.ac.at</a><br />
+
 
 <p class="discreet">This page tries to be minimalistic in layout, bandwith, and used tools. It is hosted on <a href="https://github.com/pwelke/pwelke.github.io">github pages</a>, using <a href="https://neat.joeldare.com/">neat.css</a> stylesheets, and <a href="https://bibtexparser.readthedocs.org">bibtexparser</a> to generate the lists of references.</p>
     
