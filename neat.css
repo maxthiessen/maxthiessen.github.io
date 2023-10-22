@@ -60,9 +60,11 @@ p.discreet {
     margin-bottom: 20px;
 }
 
-p.discreet {
+p.footer {
     font-size: 0.8em;
     margin-top: 20px;
+    text-align: justify;
+    text-justify: inter-word;   
 }
 
 p.justified {
