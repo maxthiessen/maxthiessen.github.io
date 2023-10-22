@@ -17,20 +17,18 @@
 </div>
 
 <p>
-  Hey there, my name is Max. I am a PhD student supervised by <a href=https://thomasgaertner.org/ target=_blank>Prof. Thomas Gärtner</a> in the <a href=https://ml-tuw.github.io/ target=_blank>machine learning research unit</a> at TU Wien, Austria. Before that, I studied computer science at the <a href=https://mlai.cs.uni-bonn.de/ target=_blank>University of Bonn</a> under the supervision of <a href=https://mlai.cs.uni-bonn.de/people/tamas-horvath target=_blank>Dr. Tamás Horváth</a>. My main research interest is <em>active</em> and <em>semi-supervised learning</em>. The goal is to achieve novel <em>sample</em> and <em>query complexity bounds</em> for learning tasks on graphs using <em>convexity theory</em>. Additionally, I am working on <em>graph representations</em> that go beyond the <em>Weisfeiler-Leman</em> isomorphism test.
+  Hey there, my name is Max. I am a PhD student supervised by <a href=https://thomasgaertner.org/ target=_blank>Prof. Thomas Gärtner</a> in the <a href=https://ml-tuw.github.io/ target=_blank>machine learning research unit</a> at TU Wien, Austria. Before that, I studied computer science at the <a href=https://mlai.cs.uni-bonn.de/ target=_blank>University of Bonn</a> under the supervision of <a href=https://mlai.cs.uni-bonn.de/people/tamas-horvath target=_blank>Dr. Tamás Horváth</a>. My main research areas are <em>learning with graphs</em>, <em>active learning</em>, and <em>learning theory</em>. I try to bridge <em>(graph) convexity theory</em> and learning theory. More recently I have started working on <em>graph representations</em> going beyond the <em>Weisfeiler-Leman</em> isomorphism test.
 </p>
 
 <!-- <p>I also teach several courses that are offered by our group in the Bachelors program and Masters program in Computer Science and I supervise BA and MA theses.</p> -->
 
 <ol class="twocol">
-  <li><a href="#contact">Contact</a></li>
   <li><a href="#news">News</a></li>
   <li><a href="#preprints">Current Preprints</a></li>
   <li><a href="#publications">Publications</a></li>
-  <li><a href="#books">Books</a></li>
   <li><a href="#nonarchival">Non-Archival Venues</a></li>
-  <li><a href="#lecturenotes">Lecture Notes and Coding Nuggets</a></li>
   <li><a href="#activities">Community Activities</a></li>
+  <li><a href="#contact">Contact</a></li>
 </ol>
 
 <p>If you like pdfs, you can also download <a href="reflist.pdf">my publication list</a> in pdf format.</p>

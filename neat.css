@@ -173,8 +173,8 @@ a {
     text-decoration-thickness: 2.5px;
     text-decoration-skip: ink;
     text-decoration-skip-ink: none;
-    text-decoration-color: #d7a;
-    background-image: linear-gradient(to bottom, transparent 50%, #d7a 50%);
+    text-decoration-color: #fa8072;/*#d7a;*/
+    background-image: linear-gradient(to bottom, transparent 50%, #fa8072 50%);
     background-size: 100% 200%;
     background-repeat: no-repeat;
     transition: .3s;
