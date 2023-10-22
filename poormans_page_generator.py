@@ -7,7 +7,7 @@ import subprocess
 
 def create_homepage(pubtypes):
 	# convert bibfile to html lists
-	convert('pascal.bib', pubtypes, format='html')
+	convert('max.bib', pubtypes, format='html')
 
 	# load files
 	index = Path('index.html_template').read_text()
@@ -26,7 +26,7 @@ def create_homepage(pubtypes):
 
 def create_latex(pubtypes, baseurl, template):
 	# convert bibfile to tex lists
-	convert('pascal.bib', pubtypes, format='tex')
+	convert('max.bib', pubtypes, format='tex')
 
 	# load files
 	index = Path(f'{template}.tex_template').read_text()
