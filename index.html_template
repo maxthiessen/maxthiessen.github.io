@@ -18,17 +18,17 @@
 </div>
 
 <p>
-  Hey there, my name is Max. I am a PhD student supervised by <a href=https://thomasgaertner.org/ target=_blank>Prof. Thomas Gärtner</a> in the <a href=https://ml-tuw.github.io/ target=_blank>machine learning research unit</a> at TU Wien, Austria. Before that, I studied computer science at the <a href=https://mlai.cs.uni-bonn.de/ target=_blank>University of Bonn</a> under the supervision of <a href=https://mlai.cs.uni-bonn.de/people/tamas-horvath target=_blank>Dr. Tamás Horváth</a>. My main research areas are <em>learning with graphs</em>, <em>active learning</em>, and <em>learning theory</em>. I try to bridge <em>(graph) convexity theory</em> and learning theory. More recently I have started working on <em>graph representations learning</em> and <em>graph neural networks</em>.
+  Hey there, my name is Max. I am a PhD student supervised by <a href=https://thomasgaertner.org/ target=_blank>Thomas Gärtner</a> in the <a href=https://ml-tuw.github.io/ target=_blank>machine learning research unit</a> at TU Wien, Austria. Before that, I studied computer science at the <a href=https://mlai.cs.uni-bonn.de/ target=_blank>University of Bonn</a> under the supervision of <a href=https://mlai.cs.uni-bonn.de/people/tamas-horvath target=_blank>Tamás Horváth</a>. My main research areas are <em>learning with graphs</em>, <em>active learning</em>, and <em>learning theory</em>. I try to bridge <em>(graph) convexity theory</em> and learning theory. More recently I have started working on <em>graph representations learning</em> and <em>graph neural networks</em>.
 </p>
 
 <!-- <p>I also teach several courses that are offered by our group in the Bachelors program and Masters program in Computer Science and I supervise BA and MA theses.</p> -->
 
 <ol class="twocol">
   <li><a href="#news">News</a></li>
-  <li><a href="#preprints">Current Preprints</a></li>
   <li><a href="#publications">Publications</a></li>
-  <li><a href="#nonarchival">Non-Archival Venues</a></li>
+  <li><a href="#nonarchival">Workshop papers</a></li>
   <li><a href="#activities">Community Activities</a></li>
+  <li><a href="#people">People</a></li>
   <li><a href="#contact">Contact</a></li>
 </ol>
 

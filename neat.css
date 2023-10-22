@@ -56,7 +56,6 @@ img {
 /* changes by pascal */
 p.discreet {
     font-size: 0.8em;
-    margin-top: 30px;
 }
 
 button, .button, input[type=submit] {
@@ -142,7 +141,7 @@ h1 {
 }
 
 h2 {
- margin-top: 40px;
+ margin-top: 60px;
 }
 
 ol.twocol {
@@ -174,11 +173,11 @@ a {
     -moz-transition: color .5s;
     -o-transition: color .5s;
     transition: color .5s;
-    text-decoration-thickness: 2.5px;
+    text-decoration-thickness: 2px;
     text-decoration-skip: ink;
     text-decoration-skip-ink: none;
-    text-decoration-color: #fa8072;/*#d7a;*/
-    background-image: linear-gradient(to bottom, transparent 50%, #fa8072 50%);
+    text-decoration-color: #3f826d; /*#fa8072;#d7a;*/
+    background-image: linear-gradient(to bottom, transparent 50%, #3f826d 50%);
     background-size: 100% 200%;
     background-repeat: no-repeat;
     transition: .3s;
