@@ -116,6 +116,25 @@ button + button, .button + .button, input[type=submit] + input[type=submit] {
 }
 
 
+hr {
+	display: block;
+	position: relative;
+	border: 2px dashed rgba(#000, .25);
+	float: left;
+	~ * {
+		clear: both;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 /* Desktop sizes */
 @media only screen and (min-width: 600px) {
     ol.twocol {
@@ -155,7 +174,7 @@ h1 {
 }
 
 h2 {
- margin-top: 60px;
+ margin-top: 80px;
 }
 
 ol.twocol {
