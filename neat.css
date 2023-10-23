@@ -170,15 +170,17 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  font-family: 'Fira Code', monospace;
+  font-family: 'Andale Mono', monospace;
 }
 
 h2 {
  margin-top: 80px;
+ font-family: 'Andale Mono', monospace;
 }
 
 ol.twocol {
-  font-family: 'Fira Code', monospace;
+  font-family: 'Andale Mono', monospace;
+  font-weight: bold;
 }
 
 .make-round {
@@ -209,8 +211,8 @@ a {
     text-decoration-thickness: 2px;
     text-decoration-skip: ink;
     text-decoration-skip-ink: none;
-    text-decoration-color: #316655;/*#3f826d; /*#fa8072;#d7a;*/
-    background-image: linear-gradient(to bottom, transparent 50%, #316655 50%);
+    text-decoration-color: #226f57;/*#316655;/*#3f826d; /*#fa8072;#d7a;*/
+    background-image: linear-gradient(to bottom, transparent 50%, #226f57 50%);
     background-size: 100% 200%;
     background-repeat: no-repeat;
     transition: .3s;
