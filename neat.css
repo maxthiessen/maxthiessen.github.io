@@ -1,9 +1,9 @@
 :root {
     color-scheme: light dark;
-    --light: #fff;
-    --lesslight: #efefef;
-    --dark:  	#A7E99C;
-    --moredark:  	#A7E99C;
+    --light: #A7E99C;
+    --lesslight: #A7E99C;
+    --dark:  	#000;
+    --moredark:  	#000;
     border-top: 5px solid var(--dark);
     line-height: 1.5em; /* This causes wrapping h1's to collapse too small */
     font-family: trebuchet ms,Verdana,verdana ref,segoe ui,Candara,lucida grande,lucida sans unicode,lucida sans,Tahoma, sans-serif;
