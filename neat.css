@@ -1,7 +1,7 @@
 :root {
     color-scheme: light dark;
-    --light: #A7E99C;
-    --lesslight: #A7E99C;
+    --light: #a7e9a7;
+    --lesslight: #a7e9a7;
     --dark:  	#000;
     --moredark:  	#000;
     border-top: 5px solid var(--dark);
@@ -209,8 +209,8 @@ a {
     text-decoration-thickness: 2px;
     text-decoration-skip: ink;
     text-decoration-skip-ink: none;
-    text-decoration-color: #3f826d; /*#fa8072;#d7a;*/
-    background-image: linear-gradient(to bottom, transparent 50%, #3f826d 50%);
+    text-decoration-color: #316655;/*#3f826d; /*#fa8072;#d7a;*/
+    background-image: linear-gradient(to bottom, transparent 50%, #316655 50%);
     background-size: 100% 200%;
     background-repeat: no-repeat;
     transition: .3s;
@@ -233,8 +233,8 @@ a:hover {
 /* Dark mode overrides (confusingly inverse) */
 @media (prefers-color-scheme: dark) {
     :root {
-        --light:  	#A7E99C;
-        --lesslight:  	#A7E99C;
+        --light:  	#a7e9a7;
+        --lesslight:  	#a7e9a7;
         --dark: #333;
         --moredark: #333;
     }
