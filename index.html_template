@@ -26,8 +26,8 @@
 <ol class="twocol">
   <li><a href="#news">News</a></li>
   <li><a href="#publications">Publications</a></li>
-  <li><a href="#nonarchival">Workshop papers and extended abstracts</a></li>
-  <li><a href="#activities">Community activities</a></li>
+  <li><a href="#nonarchival">Workshop Papers</a></li>
+  <li><a href="#activities">Community Activities</a></li>
   <li><a href="#people">People</a></li>
   <li><a href="#contact">Contact</a></li>
 </ol>
@@ -93,7 +93,7 @@
 <object type="text/html" data="publication.html_part"></object>
 
 
-<h2 id="nonarchival">Workshop papers</h2>
+<h2 id="nonarchival">Workshop Papers and Extended Abstracts</h2>
 <object type="text/html" data="nonarchival.html_part"></object>
 
 <h2 id="activities">Community Activities</h2>
