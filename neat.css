@@ -1,7 +1,7 @@
 :root {
     color-scheme: light dark;
-    --light: #a7e9a7;
-    --lesslight: #a7e9a7;
+    --light: #bceebc; /*a7e9a7*/
+    --lesslight: #bceebc;
     --dark:  	#000;
     --moredark:  	#000;
     border-top: 5px solid var(--dark);
@@ -236,8 +236,8 @@ a:hover {
 /* Dark mode overrides (confusingly inverse) */
 @media (prefers-color-scheme: dark) {
     :root {
-        --light:  	#a7e9a7;
-        --lesslight:  	#a7e9a7;
+        --light:  	#bceebc;
+        --lesslight:  	#bceebc;
         --dark: #333;
         --moredark: #333;
     }
