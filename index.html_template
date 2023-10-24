@@ -151,7 +151,7 @@ My publications are indexed by <a href="https://scholar.google.com/citations?use
 </div>
 -->
 
-<p class="footer">This page is blatantly copied from my lovely colleague <a href="https://pwelke.github.io" target=_blank>Pascal Welke</a>. It tries to be minimalistic in layout, bandwith, and used tools. It is hosted on <a href="https://github.com/maxthiessen/maxthiessen.github.io">Github pages</a>, using <a href="https://neat.joeldare.com/">neat.css</a> stylesheets, and <a href="https://bibtexparser.readthedocs.org">bibtexparser</a> to generate the lists of references. Loosely inspired by <a href="https://hugo-theme-hermit.netlify.app/" target="_blank">Hugo's Hermit theme</a>.</p>
+<p class="footer">This page is blatantly copied from my lovely colleague <a href="https://pwelke.github.io" target=_blank>Pascal Welke</a>. It tries to be minimalistic in layout, bandwith, and used tools. It is hosted on <a href="https://github.com/maxthiessen/maxthiessen.github.io">Github pages</a>, using <a href="https://neat.joeldare.com/">neat.css</a> stylesheets, and <a href="https://bibtexparser.readthedocs.org">bibtexparser</a> to generate the lists of references.<!--Loosely inspired by <a href="https://hugo-theme-hermit.netlify.app/" target="_blank">Hugo's Hermit theme</a>.</p>-->
     
 <script>
 var coll = document.getElementsByClassName("button");
