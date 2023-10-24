@@ -9,7 +9,12 @@ from bibtexparser.bparser import BibTexParser
 def filter_pubtype(list, pubtype):
     '''filter by pubtype and sort in reverse chronological order'''
     filtered_list = [b for b in list if b['publicationtype'] == pubtype]
-    return sorted(filtered_list, key=lambda b: b['year'], reverse=True)
+    
+    for b in list:
+    	 if 'month' not in b:
+    	     b['month'] = 12
+ 
+    return sorted(filtered_list, key=lambda b: (int(b['year']), int(b['month'])), reverse=True)
 
 def nonempty(string, item):
     return (string in item) and (item[string] != '')
@@ -44,14 +49,18 @@ def format_bibitem(item, format):
     s += cf('', f'\\label{{{item["ID"]}}}\n', format)
 
     # authors and title
-    s +=  f'{item["author"]} ({item["year"]}):'
+    s += cf(f'<a {abstract} href="{link}">{item["title"]}</a>', f'\\href{{{link}}}{{{item["title"]}}}', format)
     s += cf('<br />\n', '\\newline\n', format)
-    s += cf(f'<a {abstract} href="{link}">{item["title"]}</a>.', f'\\href{{{link}}}{{{item["title"]}}}', format)
+    s +=  f'{item["author"]}'
+    
     s += cf('<br />\n', '\\newline\n', format)
 
     # venue formatting
     if item['ENTRYTYPE'] == 'article':
-        if nonempty('journal', item):
+        if nonempty('abbreviatedvenue', item):
+            s += f'{item["abbreviatedvenue"]} ({item["year"]})'
+            s += cf('<br />\n', '\\newline\n', format)
+        elif nonempty('journal', item):
             s += f'{item["journal"]}'
             if nonempty("volume", item):
                 s += f' ({item["volume"]})'
@@ -59,7 +68,7 @@ def format_bibitem(item, format):
 
     if item['ENTRYTYPE'] == 'inproceedings':
         if nonempty('booktitle', item):
-            s += f'{item["booktitle"]}'
+            s += f'{item["abbreviatedvenue"]} ({item["year"]})'
             s += cf('<br />\n', '\\newline\n', format)
 
 
