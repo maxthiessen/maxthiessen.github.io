@@ -14,6 +14,10 @@ def create_homepage(pubtypes):
 
 	for pubtype in pubtypes:
 		reflist = Path(f'{pubtype}.html_part').read_text()
+		print("uuuuu")
+		print(pubtype)
+		print(reflist)
+		print("--")
 		index = index.replace(f'<object type="text/html" data="{pubtype}.html_part"></object>', reflist)
 
 	# write 
@@ -59,6 +63,6 @@ if __name__ == '__main__':
 	pubtypes = ['preprint', 'publication', 'lecturenote', 'nonarchival', 'book']
 
 	create_homepage(pubtypes)
-	create_latex(pubtypes, baseurl='https://pwelke.github.io/', template='reflist')
-	create_latex(pubtypes + ['underreview'], baseurl='https://pwelke.github.io/', template='reflistcv')
-	compile_latex('reflist', pubtypes + ['underreview'])
+	#create_latex(pubtypes, baseurl='https://maxthiessen.github.io/', template='reflist')
+	#create_latex(pubtypes + ['underreview'], baseurl='https://maxthiessen.github.io/', template='reflistcv')
+	#äcompile_latex('reflist', pubtypes + ['underreview'])

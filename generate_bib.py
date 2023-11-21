@@ -49,7 +49,10 @@ def format_bibitem(item, format):
     s += cf('', f'\\label{{{item["ID"]}}}\n', format)
 
     # authors and title
-    s += cf(f'<a {abstract} href="{link}">{item["title"]}</a>', f'\\href{{{link}}}{{{item["title"]}}}', format)
+    if  link:
+        s += cf(f'<a {abstract} href="{link}">{item["title"]}</a>', f'\\href{{{link}}}{{{item["title"]}}}', format)
+    else:
+        s += cf(f'<a {abstract} href="javascript:;">{item["title"]}</a>', f'\\href{{{link}}}{{{item["title"]}}}', format)
     s += cf('<br />\n', '\\newline\n', format)
     s +=  f'{item["author"]}'
     
