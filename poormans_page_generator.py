@@ -14,10 +14,6 @@ def create_homepage(pubtypes):
 
 	for pubtype in pubtypes:
 		reflist = Path(f'{pubtype}.html_part').read_text()
-		print("uuuuu")
-		print(pubtype)
-		print(reflist)
-		print("--")
 		index = index.replace(f'<object type="text/html" data="{pubtype}.html_part"></object>', reflist)
 
 	# write 
