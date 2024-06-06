@@ -55,6 +55,9 @@ def format_bibitem(item, format):
         s += cf(f'<a {abstract} href="javascript:;">{item["title"]}</a>', f'\\href{{{link}}}{{{item["title"]}}}', format)
     s += cf('<br />\n', '\\newline\n', format)
     s +=  f'{item["author"]}'
+
+    if "alphabetical" in item:
+        s += "<sup><small>αβ</small></sup>"
     
     s += cf('<br />\n', '\\newline\n', format)
 
@@ -129,7 +132,12 @@ def authorfirstlast(record):
     authors = list()
     for a in record['author']:
         l, f = a.split(', ')
-        s = f + ' ' + l
+        if f == "Maximilian" and l == "Thiessen":
+            s = "MT"
+        elif f == "Maximilian" and l == "Thiessen*":
+            s = "MT*"
+        else:
+            s = f + ' ' + l
         authors.append(s)
     record['author'] = ', '.join(authors)
     return record
