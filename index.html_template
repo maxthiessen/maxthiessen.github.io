@@ -40,28 +40,34 @@
 
 <table class="newstable">
   <tr></tr>
-  <tr><td></td></tr>
-  <tr><td>[May '24]</td><td>Two papers accepted at <b>COLT 2024</b>!! Together with Marco Bressan, Nicolò Cesa-Bianchi, Emmanuel Esposito (all Uni Milan), Yishay Mansour (Uni Tel Aviv/Google),  and Shay Moran (Technion/Google). See you in Edmonton!</td></tr>
-  <tr><td>[Mar '24]</td><td>Visited Marco Bressan and Nicolò Cesa-Bianchi at the University of Milan supported by an ELLIS / ELISE travel grant.</td></tr>
-  <tr><td>[Mar '24]</td><td>We are organising the <a href="https://mlg-eu.github.io" target="_blank">Mining and Learning with Graphs workshop (MLG)</a> at ECMLPKDD in Vilnius. Submit your work!</td></tr>
-  <tr><td>[Nov '23]</td><td>Happy to receive a <b>DOC fellowship</b> of the <a href="https://stipendien.oeaw.ac.at/fileadmin/subsites/stipendien/pdf/events/2023/STIPENDIEN-2023-Broschuere-V13-10-2023-1.pdf" target=_blank>Austrian Academy of Sciences (ÖAW)</a> to continue my PhD studies for two more years!</td></tr>
-  <tr><td>[Nov '23]</td><td>Two papers accepted at the 2nd <a href="https://logconference.org/" target=_blank>LoG conference</a> with Franka Bause (Uni Vienna), Andrei Brasoveanu, Fabian Jogl, and Pascal Welke.</td></tr>
-  <tr><td>[Nov '23]</td><td>Happy to be again recognised as a top reviewer of NeurIPS.</td></tr>
-  <tr><td>[Oct '23]</td><td>Together with Franka Bause (Uni Vienna), Fabian Jogl, Patrick Indri, Tamara Drucks, David Penz, Nils Kriege (Uni Vienna), Thomas Gärtner, and Pascal Welke we got our paper <q><em>Maximally Expressive GNNs for Outerplanar Graphs</em></q> accepted as an <b>oral</b> at GLFrontiers@NeurIPS.</td></tr>
-  <tr><td>[Sep '23]</td><td>Together with Fabian Jogl and Thomas Gärtner we got our paper <q><em>Expressivity-Preserving GNN Simulation</em></q> accepted to <b>NeurIPS '23</b>!</td></tr>
-  <tr><td>[Jul '23]</td><td>I won a best poster award at <a href="https://www.gresearch.com/blog/article/icml-2023-paper-reviews-poster-parties-and-grants/" target="_blank">G-Research's ICML poster party</a> in London.</td></tr>
-  <tr><td>[Mai '23]</td><td>Together with Pascal Welke, Fabian Jogl, and Thomas Gärtner we got our paper <q><em>Expectation-Complete Graph Representations with Homomorphisms</em></q> accepted to <b>ICML '23</b>!</td></tr>
-  <tr><td>[Feb '23]</td><td>We are organising the 1st <a href="https://cestlawien.github.io/" target=_blank>Community event for machine learning PhD students in Vienna (C’Est La Wien</a>)!</td></tr>
-  <!-- 
-  <tr><td>[Oct '22]</td><td>Workshop papers accepted at GLFrontiers@NeurIPS / LoG conference (with Pascal Welke and Thomas Gärtner) and NeurReps@NeurIPS (with Sohir Maskey, Ali Parviz, Hannes Stärk, Ylli Sadikaj, and Haggai Maron)!</td></tr>
-  <tr><td>[Sep '22]</td><td>Together with Marco Bressan, Andrea Paudice, Nicolò Cesa-Bianchi (University of Milan), and Silvio Lattanzi (Google) we got our paper <q><em>Active Learning of Classifiers with Label and Seed Queries</em></q> accepted to <b>NeurIPS '22</b>!</td></tr>
-  <tr><td>[Jul '22]</td><td>Happy to be recognised as an outstanding reviewer (top 10%) of ICML!</td></tr>
-  <tr><td>[Jul '22]</td><td>My colleague Fabian Jogl got our paper <q><em>Weisfeiler and Leman Return with Graph Transformations</em></q> accepted to MLG@ECMLPKDD '22 and won the (community-voted) best poster award.</td></tr>
-  <tr><td>[Jul '22]</td><td>Together with a team lead by my colleague Tamara Drucks, we organised machine learning courses for children at the KinderUni Wien.</td></tr>
-  <tr><td>[Jun '22]</td><td>Our paper <q><em>Online Learning of Convex Sets on Graphs</em></q> got accepted to ECMLPKDD '22!</td></tr>
-  <tr><td>[Jun '22]</td><td>I visited Marco Bressan and Nicolò Cesa-Bianchi at the University of Milan.</td></tr>
-  -->
+  <tr><td>June '24</td><td>Happy to be invited to the <em>minute madness sessions</em> of the <a href="https://acsd2024.univie.ac.at/program/" target=_blank>Austrian CS day (ACSD)</a>.</td></tr>
+  <tr><td>May '24</td><td>Two papers accepted at <b>COLT 2024</b>!! Together with Marco Bressan, Nicolò Cesa-Bianchi, Emmanuel Esposito (all Uni Milan), Yishay Mansour (Uni Tel Aviv/Google),  and Shay Moran (Technion/Google). See you in Edmonton!</td></tr>
+  <tr><td>Mar '24</td><td>Visited Marco Bressan and Nicolò Cesa-Bianchi at the University of Milan supported by an ELLIS / ELISE travel grant.</td></tr>
+  <tr><td>Mar '24</td><td>We are organising the <a href="https://mlg-eu.github.io" target="_blank">Mining and Learning with Graphs workshop (MLG)</a> at ECMLPKDD in Vilnius. Submit your work!</td></tr>
+  <tr><td>Nov '23</td><td>Happy to receive a <b>DOC fellowship</b> of the <a href="https://stipendien.oeaw.ac.at/fileadmin/subsites/stipendien/pdf/events/2023/STIPENDIEN-2023-Broschuere-V13-10-2023-1.pdf" target=_blank>Austrian Academy of Sciences (ÖAW)</a> to continue my PhD studies for two more years!</td></tr>
+  <tr><td>Nov '23</td><td>Two papers accepted at the 2nd <a href="https://logconference.org/" target=_blank>LoG conference</a> with Franka Bause (Uni Vienna), Andrei Brasoveanu, Fabian Jogl, and Pascal Welke.</td></tr>
+  <tr><td>Nov '23</td><td>Happy to be again recognised as a top reviewer of NeurIPS.</td></tr>
+  <tr><td>Oct '23</td><td>Together with Franka Bause (Uni Vienna), Fabian Jogl, Patrick Indri, Tamara Drucks, David Penz, Nils Kriege (Uni Vienna), Thomas Gärtner, and Pascal Welke we got our paper <q><em>Maximally Expressive GNNs for Outerplanar Graphs</em></q> accepted as an <b>oral</b> at GLFrontiers@NeurIPS.</td></tr>
+  <tr><td>Sep '23</td><td>Together with Fabian Jogl and Thomas Gärtner we got our paper <q><em>Expressivity-Preserving GNN Simulation</em></q> accepted to <b>NeurIPS '23</b>!</td></tr>
+  <tr><td>Jul '23</td><td>I won a best poster award at <a href="https://www.gresearch.com/blog/article/icml-2023-paper-reviews-poster-parties-and-grants/" target="_blank">G-Research's ICML poster party</a> in London.</td></tr>
+ </table>
+
+ <br />
+<details>
+  <summary><strong>Older news</strong></summary>
+<table class="newstable">
+  <tr></tr>
+  <tr><td>Mai '23</td><td>Together with Pascal Welke, Fabian Jogl, and Thomas Gärtner we got our paper <q><em>Expectation-Complete Graph Representations with Homomorphisms</em></q> accepted to <b>ICML '23</b>!</td></tr>
+  <tr><td>Feb '23</td><td>We are organising the 1st <a href="https://cestlawien.github.io/" target=_blank>Community event for machine learning PhD students in Vienna (C’Est La Wien</a>)!</td></tr>
+  <tr><td>Oct '22</td><td>Workshop papers accepted at GLFrontiers@NeurIPS / LoG conference (with Pascal Welke and Thomas Gärtner) and NeurReps@NeurIPS (with Sohir Maskey, Ali Parviz, Hannes Stärk, Ylli Sadikaj, and Haggai Maron)!</td></tr>
+  <tr><td>[Sep '22</td><td>Together with Marco Bressan, Andrea Paudice, Nicolò Cesa-Bianchi (University of Milan), and Silvio Lattanzi (Google) we got our paper <q><em>Active Learning of Classifiers with Label and Seed Queries</em></q> accepted to <b>NeurIPS '22</b>!</td></tr>
+  <tr><td>Jul '22</td><td>Happy to be recognised as an outstanding reviewer (top 10%) of ICML!</td></tr>
+  <tr><td>Jul '22</td><td>My colleague Fabian Jogl got our paper <q><em>Weisfeiler and Leman Return with Graph Transformations</em></q> accepted to MLG@ECMLPKDD '22 and won the (community-voted) best poster award.</td></tr>
+  <tr><td>Jul '22</td><td>Together with a team lead by my colleague Tamara Drucks, we organised machine learning courses for children at the KinderUni Wien.</td></tr>
+  <tr><td>Jun '22</td><td>Our paper <q><em>Online Learning of Convex Sets on Graphs</em></q> got accepted to ECMLPKDD '22!</td></tr>
+  <tr><td>Jun '22</td><td>I visited Marco Bressan and Nicolò Cesa-Bianchi at the University of Milan.</td></tr>
 </table>
+</details>
 
 
 

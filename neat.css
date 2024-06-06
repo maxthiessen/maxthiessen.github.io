@@ -243,7 +243,9 @@ a:hover {
 
 .newstable td:nth-child(1) {
     white-space: nowrap; 
-    text-align: left;
+    text-align: right;
+    font-style: italic;
+    font-size: smaller
 }
 
 
