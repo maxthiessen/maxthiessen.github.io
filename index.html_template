@@ -143,7 +143,16 @@ Collaborators and colleagues
 
 <h2 id="contact">Contact</h2>
 <p>
-You can find me on <a href="https://twitter.com/maxthiessen_ml" target=_blank>Twitter</a>, <a href="https://github.com/maksim96">Github</a>, <a href="https://www.linkedin.com/in/maximilian-thiessen/" target="_blank">LinkedIn</a>, and <a href="https://scholar.google.com/citations?user=XO5rGcwAAAAJ">Google scholar</a>.<br />
+You can find me on 
+<a class="inline-icon" href="https://bsky.app/profile/maxthiessen.bsky.social" target=_blank>
+  <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/1200px-Bluesky_Logo.svg.png"/>Bluesky</a>, 
+  <a class="inline-icon" href="https://twitter.com/maxthiessen_ml" target=_blank>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/600px-X_logo_2023.svg.png?20230819000805"/>Twitter</a>, 
+    <a class="inline-icon" href="https://www.linkedin.com/in/maximilian-thiessen/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/144px-LinkedIn_icon.svg.png" />LinkedIn</a>, and 
+      
+      <a class="inline-icon" href="https://scholar.google.com/citations?user=XO5rGcwAAAAJ">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Google_Scholar_logo.svg/1024px-Google_Scholar_logo.svg.png?20200110094142" />Google scholar</a>.<br />
 <!-- <a href="https://limesurvey.informatik.uni-bonn.de/index.php/212688?lang=en">You can give me anonymous feedback (for example on my teaching performance).</a> -->
 </p>
 
