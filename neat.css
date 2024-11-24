@@ -231,6 +231,25 @@ a:hover {
     background-position: 0% 100%;
 }
 
+
+
+.inline-icon {
+    text-decoration:none;
+    border-bottom:2px solid #226f57;
+    display: inline-block;
+    line-height: 16px;
+}
+
+.inline-icon img {
+    display: inline;
+    margin: 0 0.125em;
+    padding: 0;
+    vertical-align: baseline;
+    height: 1em;
+    object-fit: scale-down;
+  }
+  
+
 .newstable {
     margin-left: -17px;
     margin-right: -17px;
@@ -284,3 +303,4 @@ a:hover {
         display: none;
     }
 }
+
