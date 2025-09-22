@@ -41,6 +41,8 @@
 <h2 id="news">News</h2>
 
 <table class="newstable">
+  <tr><td>Sep '25</td><td>Together with Steve Hanneke and Shay Moran, we got our paper on <em>Nonuniform PAC learnability</em> accepted to <b>NeurIPS</b>! </td></tr>
+  <tr><td>Aug '25</td><td>Visited Sandra Zilles, Hans Simon, Rex Lei, and Shay Moran at the MPI Informatics.</td></tr>
   <tr><td>July '25</td><td>New preprint on <em><a href="https://arxiv.org/abs/2506.23186" target=_blank>Efficient Algorithms for Learning and Compressing Monophonic Halfspaces in Graphs</a></em> with Marco Bressan, Victor Chepoi, and Emmanuel Esposito.</td></tr>
   <tr><td>Jun '25</td><td>Yet again visited the Laila group in Milan. Then visited CENTAI in Turin.</td></tr>
   <tr><td>May '25</td><td>Two papers accepted at <b>COLT 2025</b>!! And will also be presented at <a href="https://2025.highlightsofalgorithms.org" target=_blank>HALG 2025</a>. Together with Marco Bressan, Nataly Brukhim, Nicolò Cesa-Bianchi, Emmanuel Esposito, Yishay Mansour,  and Shay Moran.</td></tr>
