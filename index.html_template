@@ -18,7 +18,7 @@
 </div>
 
 <p class="justified">
-Hey there, my name is Max. I am a <span title="not yet defended">postdoc*</span> hosted by <a href=http://tml.cs.uni-tuebingen.de/team/luxburg/ target=_blank>Ulrike von Luxburg</a> in the <a href="http://tml.cs.uni-tuebingen.de/">theory of ML group</a> at Uni Tübingen. I did my PhD supervised by <a href=https://thomasgaertner.org/ target=_blank>Thomas Gärtner</a> at TU Wien and in between spent 3 months at the MPI for Informatics in Saarbrücken. Before my PhD, I studied CS in Bonn.
+Hey there, my name is Max. I am a postdoc hosted by <a href=http://tml.cs.uni-tuebingen.de/team/luxburg/ target=_blank>Ulrike von Luxburg</a> in the <a href="http://tml.cs.uni-tuebingen.de/">theory of ML group</a> at Uni Tübingen. I did my PhD supervised by <a href=https://thomasgaertner.org/ target=_blank>Thomas Gärtner</a> at the <a href="https://ml-tuw.github.io/" target>research unit ML</a> at TU Wien and in between spent 3 months at the <a href="https://www.mpi-inf.mpg.de/departments/algorithms-complexity">MPI for Informatics</a> in Saarbrücken. Before my PhD, I studied CS in Bonn.
   <!--
   Hey there, my name is Max. I am a PhD student supervised by <a href=https://thomasgaertner.org/ target=_blank>Thomas Gärtner</a> in the <a href=https://ml-tuw.github.io/ target=_blank>machine learning research unit</a> at TU Wien. Before that, I studied computer science at the <a href=https://mlai.cs.uni-bonn.de/ target=_blank>University of Bonn</a> under the supervision of <a href="https://www.mlai.cs.uni-bonn.de/en/ub-personenuebersichtsseite" target=_blank>Tamás Horváth</a>. Additionally, I frequently visit and work with the people of the <a href="https://sites.google.com/view/lailaunimi" target=_blank>Laila lab</a> in Milan.-->
 
@@ -43,7 +43,7 @@ Hey there, my name is Max. I am a <span title="not yet defended">postdoc*</span>
 <h2 id="news">News</h2>
 
 <table class="newstable">
-  <tr><td>May '26</td><td><b>Big news</b>: started a postdoc in the Theory of ML group at Uni Tübingen hosted by Ulrike von Luxburg.</td></tr>
+  <tr><td>May '26</td><td><b>Big news</b>: defended my PhD and started a postdoc at Uni Tübingen.</td></tr>
   <tr><td>May '26</td><td><em>Learning conditional averages</em> got accepted at <b>COLT</b>! See you in San Diego.</td></tr>
   <tr><td>Feb '26</td><td>Visiting <a href="https://www.mpi-inf.mpg.de/departments/algorithms-complexity">MPI Informatics</a> the next 3 months hosted by <a href="https://sites.google.com/site/dannanongkai/">Danupon Nanongkai</a>!</td></tr>
   <tr><td>Dec '25</td><td><b>Submitted thesis!</b></td></tr>
@@ -175,9 +175,9 @@ You can find me on
 
 
 <b>Office:</b> 
-2nd Floor, Erzherzog-Johann-Platz 1 (FB02), 1040 Vienna, Austria.<br />
+Level 4, Office A 434, Maria von Linden Str. 1, 72076 Tübingen.<br />
 
-<b>Email:</b> You can send mail to <a href="mailto:maximilian.thiessen@tuwien.ac.at">maximilian.thiessen@tuwien.ac.at</a>.<br />
+<b>Email:</b> You can send mail to <a href="mailto:maximilian.thiessen@uni-tuebingen">maximilian.thiessen@uni-tuebingen</a>.<br />
 <!--
 <div class="social">
 <a href="https://scholar.google.com/citations?user=XO5rGcwAAAAJ" target=_blank class="fa scholar"></a>
