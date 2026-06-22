@@ -10,6 +10,7 @@
     font-size: 16px;
 }
 
+
 * {
     box-sizing: border-box;
     color: var(--dark);
@@ -182,7 +183,7 @@ h1 {
   font-family: 'Andale Mono', monospace;
 }
 
-h2 {
+h2, #nonarchival {
  margin-top: 80px;
  font-family: 'Andale Mono', monospace;
 }
