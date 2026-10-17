@@ -38,10 +38,21 @@ code {
     background-color: var(--lesslight);
 }
 
+/* the canvas colour shows in the overscroll area above and below the page */
+html {
+    background-color: var(--dark);
+}
+
 body {
     background-color: var(--light);
     margin: 0;
-    max-width: 860px;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.page {
+    display: flow-root; /* keep child margins from collapsing out of the green area */
+    max-width: 920px;
     padding: 0 20px 20px 20px;
     margin-left: auto;
     margin-right: auto;
@@ -191,6 +202,54 @@ h2, #nonarchival {
 ol.twocol {
   font-family: 'Andale Mono', monospace;
   font-weight: bold;
+}
+
+/* publication lists grouped by year */
+.pubyear {
+  display: grid;
+  grid-template-columns: 2.6em 1fr;
+  column-gap: 1.4em;
+  align-items: start;
+}
+
+/* tighter spacing between the entries of one year */
+ul.pubs p.discreet {
+  margin-top: -4px;
+  margin-bottom: 8px;
+}
+
+ul.pubs li + li {
+  margin-top: 10px;
+}
+
+/* ... but keep the year groups apart */
+.pubyear + .pubyear {
+  margin-top: 1.2em;
+}
+
+.pubyear .year {
+  font-family: 'Andale Mono', monospace;
+  font-weight: bold;
+  text-align: right;
+}
+
+ul.pubs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* on narrow screens put the year above its publications */
+@media only screen and (max-width: 480px) {
+  .pubyear {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+  }
+
+  .pubyear .year {
+    text-align: left;
+    margin-bottom: 0.25em;
+  }
 }
 
 .make-round {

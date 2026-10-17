@@ -54,7 +54,13 @@ def format_bibitem(item, format):
     else:
         s += cf(f'<a {abstract} href="javascript:;">{item["title"]}</a>', f'\\href{{{link}}}{{{item["title"]}}}', format)
     s += cf('<br />\n', '\\newline\n', format)
-    s +=  f'{item["author"]}'
+
+    # glue the last author to the previous one, so MT never ends up alone on a line
+    authors, sep, lastauthor = ' '.join(item["author"].split()).rpartition(', ')
+    if sep:
+        s += authors + ',' + cf('&nbsp;', '~', format) + lastauthor
+    else:
+        s += item["author"]
 
     if "alphabetical" in item:
         s += "<sup><small>αβ</small></sup>"
@@ -83,47 +89,85 @@ def format_bibitem(item, format):
         s += cf('<br />\n', '\\newline\n', format)
 
     # footer row with optionals
-    s += cf('<p class="discreet">\n', f'{{\\footnotesize\n', format)
+    links = []
     if nonempty('pdf', item):
-        s += cf(f'[<a href="{item["pdf"]}">pdf</a>]\n', f'[\\href{{{item["pdf"]}}}{{pdf}}]\n', format)
+        links.append(cf(f'[<a href="{item["pdf"]}">pdf</a>]', f'[\\href{{{item["pdf"]}}}{{pdf}}]', format))
     if nonempty('poster', item):
-        s += cf(f'[<a href="{item["poster"]}">poster</a>]\n', f'[\\href{{{item["poster"]}}}{{poster}}]\n', format)
+        links.append(cf(f'[<a href="{item["poster"]}">poster</a>]', f'[\\href{{{item["poster"]}}}{{poster}}]', format))
     if nonempty('slides', item):
-        s += cf(f'[<a href="{item["slides"]}">slides</a>]\n', f'[\\href{{{item["slides"]}}}{{slides}}]\n', format)
+        links.append(cf(f'[<a href="{item["slides"]}">slides</a>]', f'[\\href{{{item["slides"]}}}{{slides}}]', format))
     if nonempty('video', item):
-        s += cf(f'[<a href="{item["video"]}">video</a>]\n', f'[\\href{{{item["video"]}}}{{video}}]\n', format)
+        links.append(cf(f'[<a href="{item["video"]}">video</a>]', f'[\\href{{{item["video"]}}}{{video}}]', format))
     if nonempty('code', item):
-        s += cf(f'[<a href="{item["code"]}">code</a>]\n', f'[\\href{{{item["code"]}}}{{code}}]\n', format)
+        links.append(cf(f'[<a href="{item["code"]}">code</a>]', f'[\\href{{{item["code"]}}}{{code}}]', format))
     if nonempty('reproduciblerun', item):
-        s += cf(f'[<a href="{item["reproduciblerun"]}">reproducible run</a>]\n', f'[\\href{{{item["reproduciblerun"]}}}{{reproducible run}}]\n', format)
+        links.append(cf(f'[<a href="{item["reproduciblerun"]}">reproducible run</a>]', f'[\\href{{{item["reproduciblerun"]}}}{{reproducible run}}]', format))
     if nonempty('doi', item):
-        s += cf(f'[<a href="https://dx.doi.org/{item["doi"]}">doi</a>]\n', f'[\\href{{https://dx.doi.org/{item["doi"]}}}{{doi}}]\n', format)
+        links.append(cf(f'[<a href="https://dx.doi.org/{item["doi"]}">doi</a>]', f'[\\href{{https://dx.doi.org/{item["doi"]}}}{{doi}}]', format))
     if nonempty('reviews', item):
-        s += cf(f'[<a href="{item["reviews"]}">reviews</a>]\n', f'[\\href{{{item["reviews"]}}}{{reviews}}]\n', format)
+        links.append(cf(f'[<a href="{item["reviews"]}">reviews</a>]', f'[\\href{{{item["reviews"]}}}{{reviews}}]', format))
     if nonempty('eprint', item):
-        s += cf(f'[<a href="https://arxiv.org/abs/{item["eprint"]}">arXiv</a>]\n', f'[\\href{{https://arxiv.org/abs/{item["eprint"]}}}{{arxiv}}]\n', format)
+        links.append(cf(f'[<a href="https://arxiv.org/abs/{item["eprint"]}">arXiv</a>]', f'[\\href{{https://arxiv.org/abs/{item["eprint"]}}}{{arxiv}}]', format))
     if nonempty('biburl', item):
-        s += cf(f'[<a href="{item["biburl"]}">bibtex</a>]\n', f'[\\href{{{item["biburl"]}}}{{bibtex}}]\n', format)
+        links.append(cf(f'[<a href="{item["biburl"]}">bibtex</a>]', f'[\\href{{{item["biburl"]}}}{{bibtex}}]', format))
     if nonempty('venuetype', item) and nonempty('venueurl', item):
-        s += cf(f'[<a href="{item["venueurl"]}">{item["venuetype"]}</a>]\n', f'[\\href{{{item["venueurl"]}}}{{{item["venuetype"]}}}]\n', format)
-    
-    s += cf('</p>\n', f'}}\n', format)
+        links.append(cf(f'[<a href="{item["venueurl"]}">{item["venuetype"]}</a>]', f'[\\href{{{item["venueurl"]}}}{{{item["venuetype"]}}}]', format))
+
+    # thin spaces keep the html links close together, latex keeps its own spacing
+    if links:
+        s += cf('<p class="discreet">\n', f'{{\\footnotesize\n', format)
+        s += cf('&thinsp;', '\n', format).join(links)
+        s += '\n'
+        s += cf('</p>\n', f'}}\n', format)
     s += cf('</li>\n', '', format)
     return s
 
 
-def get_pubtype(list, pubtype, format):
-    '''Create a html list of all (sorted) items of type pubtype'''
-    s = cf('<ol>\n', '\\begin{enumerate}\n\\conti\n', format)
-    noItems = True
-    for b in filter_pubtype(list, pubtype):
-        s += format_bibitem(b, format)
-        noItems = False
-    if noItems:
-        # suppress 'perhaps a missing \item?' latex error  
-        s += cf('', '\\makeatletter\\let\\@noitemerr\\relax\\makeatother\n', format)
-    s += cf('</ol>\n', '\\seti\n\\end{enumerate}', format)
+def group_by_year(items):
+    '''group an already sorted list of items into [(year, items)] pairs'''
+    groups = []
+    for b in items:
+        if groups and groups[-1][0] == b['year']:
+            groups[-1][1].append(b)
+        else:
+            groups.append((b['year'], [b]))
+    return groups
+
+
+def get_pubtype_html(items):
+    '''Create a html list of all (sorted) items, grouped by year'''
+    s = '<div class="pubyears">\n'
+    for year, group in group_by_year(items):
+        s += '<div class="pubyear">\n'
+        s += f'<div class="year">{year}</div>\n'
+        s += '<ul class="pubs">\n'
+        for b in group:
+            s += format_bibitem(b, 'html')
+        s += '</ul>\n'
+        s += '</div>\n'
+    s += '</div>\n'
     return s
+
+
+def get_pubtype_tex(items):
+    '''Create a tex enumeration of all (sorted) items'''
+    s = '\\begin{enumerate}\n\\conti\n'
+    for b in items:
+        s += format_bibitem(b, 'tex')
+    if not items:
+        # suppress 'perhaps a missing \item?' latex error  
+        s += '\\makeatletter\\let\\@noitemerr\\relax\\makeatother\n'
+    s += '\\seti\n\\end{enumerate}'
+    return s
+
+
+def get_pubtype(list, pubtype, format):
+    '''Create a list of all (sorted) items of type pubtype'''
+    items = filter_pubtype(list, pubtype)
+    if format == 'html':
+        return get_pubtype_html(items)
+    if format == 'tex':
+        return get_pubtype_tex(items)
 
 
 def authorfirstlast(record):
