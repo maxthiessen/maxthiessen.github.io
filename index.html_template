@@ -102,6 +102,7 @@ Hey there, my name is Max. I am a postdoc hosted by <a href=http://tml.cs.uni-tu
 <object type="text/html" data="publication.html_part"></object>
 
 
+(<sup><small>αβ</small></sup> alphabetical ordering)<br />
 (* shared first)<br />
 
 <br>
@@ -112,9 +113,6 @@ Hey there, my name is Max. I am a postdoc hosted by <a href=http://tml.cs.uni-tu
 
 <h2 id="preprints">Current Preprints</h2>
 <object type="text/html" data="preprint.html_part"></object>
-
-
-(<sup><small>αβ</small></sup> alphabetical ordering)<br />
 
 <h2 id="activities">Community Activities</h2>
 <ol>
