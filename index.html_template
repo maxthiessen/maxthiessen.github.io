@@ -137,9 +137,7 @@ Hey there, my name is Max. I am a postdoc hosted by <a href=http://tml.cs.uni-tu
 <h2 id="contact">Contact</h2>
 <p>
 You can find me on 
-<a class="inline-icon" href="https://bsky.app/profile/maxthiessen.bsky.social" target=_blank>
-  Bluesky</a>, 
-  <a class="inline-icon" href="https://twitter.com/maxthiessen_ml" target=_blank>
+<a class="inline-icon" href="https://twitter.com/maxthiessen_ml" target=_blank>
    Twitter</a>, 
     <a class="inline-icon" href="https://www.linkedin.com/in/maximilian-thiessen/" target="_blank">
      LinkedIn</a>, and 
@@ -153,7 +151,7 @@ You can find me on
 <b>Office:</b> 
 Level 4, Office A 434, Maria von Linden Str. 1, 72076 Tübingen.<br />
 
-<b>Email:</b> You can send mail to <a href="mailto:maximilian.thiessen@uni-tuebingen.de">maximilian.thiessen@uni-tuebingen.de</a>.<br />
+<b>Email:</b> <a href="mailto:maximilian.thiessen@uni-tuebingen.de">maximilian.thiessen@uni-tuebingen.de</a><br />
 <!--
 <div class="social">
 <a href="https://scholar.google.com/citations?user=XO5rGcwAAAAJ" target=_blank class="fa scholar"></a>
