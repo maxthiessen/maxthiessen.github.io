@@ -83,6 +83,10 @@ def format_bibitem(item, format):
             s += f'{item["abbreviatedvenue"]} ({item["year"]})'
             s += cf('<br />\n', '\\newline\n', format)
 
+    if item['ENTRYTYPE'] == 'phdthesis':
+        s += f'PhD thesis, {item["school"]} ({item["year"]})'
+        s += cf('<br />\n', '\\newline\n', format)
+
 
     if nonempty('comment', item):
         s += f'({item["comment"]})'
