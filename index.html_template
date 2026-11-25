@@ -42,6 +42,7 @@ Hey there, my name is Max. I am a postdoc hosted by <a href=http://tml.cs.uni-tu
 <h2 id="news">News</h2>
 
 <table class="newstable">
+    <tr><td>Nov '26</td><td>Won the <b>Best Dissertation Award</b> at the <a href="https://informatics.tuwien.ac.at/news/3257" target=_blank>Informatics faculty of TU Wien</a>!</td></tr>
     <tr><td>Oct '26</td><td>Organizing an <a href="https://ellis-unconference.github.io/" target=_blank>ELLIS UnConference session</a> on "Reflections on XAI".</td></tr>
     <tr><td>Oct '26</td><td>Visited my colleagues in Milano.</td></tr>
     <tr><td>Sep '26</td><td>Two papers at <b>NeurIPS</b>! See you in Paris.</td></tr>
@@ -124,9 +125,11 @@ Hey there, my name is Max. I am a postdoc hosted by <a href=http://tml.cs.uni-tu
     LoG'<a  href="http://log2022.logconference.org/">22</a>'<a  href="http://logconference.org/">23</a>, and
     LWDA'<a href="https://lwda2022.de/">22</a>.
   </li>
-  <li>Reviewed for <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">TPAMI</a>, <a href="https://www.springer.com/journal/10994">MLJ</a> and the ECMLPKDD journal track (2023).</li>
+  <li>Reviewed for <a href="https://jmlr.org/tmlr/">TMLR</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">TPAMI</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=5962385">TNNLS</a>, <a href="https://www.springer.com/journal/10994">MLJ</a>, <a href="https://www.nature.com/srep/">Scientific Reports</a>, <a href="https://link.springer.com/journal/26">Annals of Combinatorics</a>, and the <a href="https://2023.ecmlpkdd.org/submissions/journal-track/">ECMLPKDD journal track (2023)</a>.</li>
+  <li>Co-organizer of the session "Reflections on XAI" at the <a href="https://ellis-unconference.github.io/" target="_blank">ELLIS UnConference 2026</a>.</li>
   <li>Organizer of <a  href="https://mlg-europe.github.io/2022/">MLG@ECMLPKDD 2022</a>, <a href="https://mlg-europe.github.io/">2023</a>, and <a href="https://mlg-europe.github.io/2024">2024</a>, the 18th, 20th, and 22nd Workshop on Mining and Learning with Graphs.</li>
-  <li>Co-organizer of <a href="https://sites.google.com/view/graph-learning-on-weds/" target="_blank">Graph Learning on Wednesdays (GLOW)</a>, a monthly reading group focusing on interactive discussions.</li>
+  <li>Co-organizer of <a href="https://sites.google.com/view/graph-learning-on-weds/" target="_blank">Graph Learning on Wednesdays (GLOW)</a> (2024&ndash;2026), a monthly reading group focusing on interactive discussions.</li>
+  <li>Co-organizer of a graph learning social at ICML 2024.</li>
   <li>Co-organizer of <a href="https://cestlawien.github.io/">C'Est La Wien '23</a>, the <strong>C</strong>ommunity <strong>E</strong>vent for <strong>St</strong>udents of <strong>L</strong>earning <strong>A</strong>lgorithms in <strong>Wien</strong>.</li>
   <li>Session chair at <a  href="https://2023.ecmlpkdd.org">ECMLPKDD'23.</a></li>
   <!--<li>Frequent reviewer for various workshops at NeurIPS, ICML, and ICLR.</li>-->
